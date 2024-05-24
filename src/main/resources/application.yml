@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Homework5
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5434/Homework5}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
+  liquibase:
+    enabled: false
+    change-log: classpath:migrations/master.xml
