@@ -1,0 +1,10 @@
+list:
+  values:
+    - prod1
+    - prod2
+    - prod3
+spring:
+  application:
+    name: MyApp Prod
+env:
+  variable: ${ENV_VAR:default}

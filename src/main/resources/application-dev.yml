@@ -1,0 +1,10 @@
+list:
+  values:
+    - dev1
+    - dev2
+    - dev3
+spring:
+  application:
+    name: MyApp Dev
+env:
+  variable: ${ENV_VAR:default}
